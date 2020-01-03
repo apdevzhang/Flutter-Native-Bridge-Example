@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F1C689F121D96A5F8C93B6F /* Pods_benjamina.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B9600F40B5BEDEFF5D0B1F2 /* Pods_benjamina.framework */; };
+		233800A123B48DCD00B823F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233800A023B48DCD00B823F1 /* AppDelegate.swift */; };
+		233800A823B48DCD00B823F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233800A623B48DCD00B823F1 /* Main.storyboard */; };
+		233800AA23B48DCE00B823F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 233800A923B48DCE00B823F1 /* Assets.xcassets */; };
+		233800AD23B48DCE00B823F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 233800AB23B48DCE00B823F1 /* LaunchScreen.storyboard */; };
+		233800BA23B4B24300B823F1 /* SwiftFlutterBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233800B923B4B24300B823F1 /* SwiftFlutterBridge.swift */; };
+		233800BC23B4B25300B823F1 /* FlutterBridgeConst.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233800BB23B4B25300B823F1 /* FlutterBridgeConst.swift */; };
+		233800BE23B4B2D600B823F1 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 233800BD23B4B2D600B823F1 /* RootViewController.swift */; };
+		237AAD1D23BDF60600A9BCB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AAD1C23BDF60600A9BCB1 /* UIKit.framework */; };
+		237AAD1F23BDF60F00A9BCB1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 237AAD1E23BDF60F00A9BCB1 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2338009D23B48DCD00B823F1 /* benjamina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = benjamina.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		233800A023B48DCD00B823F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		233800A723B48DCD00B823F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		233800A923B48DCE00B823F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		233800AC23B48DCE00B823F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		233800AE23B48DCE00B823F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		233800B723B4B15400B823F1 /* benjamina-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "benjamina-Bridging-Header.h"; sourceTree = "<group>"; };
+		233800B923B4B24300B823F1 /* SwiftFlutterBridge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftFlutterBridge.swift; sourceTree = "<group>"; };
+		233800BB23B4B25300B823F1 /* FlutterBridgeConst.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlutterBridgeConst.swift; sourceTree = "<group>"; };
+		233800BD23B4B2D600B823F1 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		237AAD1C23BDF60600A9BCB1 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		237AAD1E23BDF60F00A9BCB1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5B9600F40B5BEDEFF5D0B1F2 /* Pods_benjamina.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_benjamina.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F4098D0A50B399EDC909CBD /* Pods-benjamina.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-benjamina.debug.xcconfig"; path = "Target Support Files/Pods-benjamina/Pods-benjamina.debug.xcconfig"; sourceTree = "<group>"; };
+		CC559FD00928FC0C9DAFD7EC /* Pods-benjamina.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-benjamina.release.xcconfig"; path = "Target Support Files/Pods-benjamina/Pods-benjamina.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2338009A23B48DCD00B823F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1C689F121D96A5F8C93B6F /* Pods_benjamina.framework in Frameworks */,
+				237AAD1F23BDF60F00A9BCB1 /* Foundation.framework in Frameworks */,
+				237AAD1D23BDF60600A9BCB1 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189BF5514B69B6165C01DC4A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				237AAD1E23BDF60F00A9BCB1 /* Foundation.framework */,
+				237AAD1C23BDF60600A9BCB1 /* UIKit.framework */,
+				5B9600F40B5BEDEFF5D0B1F2 /* Pods_benjamina.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2338009423B48DCD00B823F1 = {
+			isa = PBXGroup;
+			children = (
+				2338009F23B48DCD00B823F1 /* benjamina */,
+				2338009E23B48DCD00B823F1 /* Products */,
+				C84E74BE8929D8AA0ECB79FF /* Pods */,
+				189BF5514B69B6165C01DC4A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2338009E23B48DCD00B823F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2338009D23B48DCD00B823F1 /* benjamina.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2338009F23B48DCD00B823F1 /* benjamina */ = {
+			isa = PBXGroup;
+			children = (
+				233800B823B4B23800B823F1 /* Source */,
+				233800B423B4AE3F00B823F1 /* Application */,
+				233800B523B4AE5500B823F1 /* Classes */,
+				233800B623B4B0FF00B823F1 /* Resources */,
+			);
+			path = benjamina;
+			sourceTree = "<group>";
+		};
+		233800B423B4AE3F00B823F1 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				233800A023B48DCD00B823F1 /* AppDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		233800B523B4AE5500B823F1 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				233800BD23B4B2D600B823F1 /* RootViewController.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		233800B623B4B0FF00B823F1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				233800A623B48DCD00B823F1 /* Main.storyboard */,
+				233800A923B48DCE00B823F1 /* Assets.xcassets */,
+				233800AB23B48DCE00B823F1 /* LaunchScreen.storyboard */,
+				233800AE23B48DCE00B823F1 /* Info.plist */,
+				233800B723B4B15400B823F1 /* benjamina-Bridging-Header.h */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		233800B823B4B23800B823F1 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				233800B923B4B24300B823F1 /* SwiftFlutterBridge.swift */,
+				233800BB23B4B25300B823F1 /* FlutterBridgeConst.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		C84E74BE8929D8AA0ECB79FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F4098D0A50B399EDC909CBD /* Pods-benjamina.debug.xcconfig */,
+				CC559FD00928FC0C9DAFD7EC /* Pods-benjamina.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2338009C23B48DCD00B823F1 /* benjamina */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 233800B123B48DCE00B823F1 /* Build configuration list for PBXNativeTarget "benjamina" */;
+			buildPhases = (
+				9993C2772BA2DCF12A9E967D /* [CP] Check Pods Manifest.lock */,
+				94D8ED78D4574A03D09917D0 /* [CP-User] Run Flutter Build Script */,
+				2338009923B48DCD00B823F1 /* Sources */,
+				2338009A23B48DCD00B823F1 /* Frameworks */,
+				2338009B23B48DCD00B823F1 /* Resources */,
+				C3F26E2F059E0B62E5EB0C13 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = benjamina;
+			productName = benjamina;
+			productReference = 2338009D23B48DCD00B823F1 /* benjamina.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2338009523B48DCD00B823F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = BANYAN;
+				TargetAttributes = {
+					2338009C23B48DCD00B823F1 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 2338009823B48DCD00B823F1 /* Build configuration list for PBXProject "benjamina" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2338009423B48DCD00B823F1;
+			productRefGroup = 2338009E23B48DCD00B823F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2338009C23B48DCD00B823F1 /* benjamina */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2338009B23B48DCD00B823F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233800AD23B48DCE00B823F1 /* LaunchScreen.storyboard in Resources */,
+				233800AA23B48DCE00B823F1 /* Assets.xcassets in Resources */,
+				233800A823B48DCD00B823F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		94D8ED78D4574A03D09917D0 /* [CP-User] Run Flutter Build Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/../flutter_project/.metadata",
+				"${SRCROOT}/../flutter_project/.ios/Flutter/App.framework/App",
+				"${SRCROOT}/../flutter_project/.ios/Flutter/engine/Flutter.framework/Flutter",
+				"${SRCROOT}/../flutter_project/.ios/Flutter/flutter_export_environment.sh",
+			);
+			name = "[CP-User] Run Flutter Build Script";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e\nset -u\nsource \"${SRCROOT}/../flutter_project/.ios/Flutter/flutter_export_environment.sh\"\n\"$FLUTTER_ROOT\"/packages/flutter_tools/bin/xcode_backend.sh build";
+		};
+		9993C2772BA2DCF12A9E967D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-benjamina-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C3F26E2F059E0B62E5EB0C13 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-benjamina/Pods-benjamina-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-benjamina/Pods-benjamina-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-benjamina/Pods-benjamina-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2338009923B48DCD00B823F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				233800BC23B4B25300B823F1 /* FlutterBridgeConst.swift in Sources */,
+				233800BA23B4B24300B823F1 /* SwiftFlutterBridge.swift in Sources */,
+				233800BE23B4B2D600B823F1 /* RootViewController.swift in Sources */,
+				233800A123B48DCD00B823F1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		233800A623B48DCD00B823F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				233800A723B48DCD00B823F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		233800AB23B48DCE00B823F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				233800AC23B48DCE00B823F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		233800AF23B48DCE00B823F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		233800B023B48DCE00B823F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		233800B223B48DCE00B823F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F4098D0A50B399EDC909CBD /* Pods-benjamina.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q6J92FA9UY;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/benjamina/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Better.benjamina;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/benjamina/Resources/benjamina-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		233800B323B48DCE00B823F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC559FD00928FC0C9DAFD7EC /* Pods-benjamina.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q6J92FA9UY;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = "$(SRCROOT)/benjamina/Resources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Better.benjamina;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/benjamina/Resources/benjamina-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2338009823B48DCD00B823F1 /* Build configuration list for PBXProject "benjamina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233800AF23B48DCE00B823F1 /* Debug */,
+				233800B023B48DCE00B823F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		233800B123B48DCE00B823F1 /* Build configuration list for PBXNativeTarget "benjamina" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				233800B223B48DCE00B823F1 /* Debug */,
+				233800B323B48DCE00B823F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2338009523B48DCD00B823F1 /* Project object */;
+}

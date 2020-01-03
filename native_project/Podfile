@@ -1,0 +1,34 @@
+
+platform :ios, '10.0'
+
+flutter_application_path = '../flutter_project'
+load File.join(flutter_application_path, '.ios', 'Flutter', 'podhelper.rb')
+
+target 'benjamina' do
+
+  use_frameworks!
+
+  install_all_flutter_pods(flutter_application_path)
+    
+  pod 'RxSwift', '~> 5.0'                   # https://github.com/ReactiveX/RxSwift
+  pod 'RxCocoa', '~> 5.0'
+  pod 'NSObject+Rx', '~> 5.0'               # https://github.com/RxSwiftCommunity/NSObject-Rx
+  pod 'RxAlertController', '~> 5.0'         # https://github.com/evgeny-sureev/RxAlertController
+  
+  pod 'Toast-Swift'                          # https://github.com/scalessec/Toast-Swift
+  pod 'SwifterSwift', '~> 5.0'               # https://github.com/SwifterSwift/SwifterSwift
+  
+end
+
+
+post_install do |installer|
+  installer.pods_project.targets.each do |target|
+    target.build_configurations.each do |config|
+      config.build_settings['ENABLE_BITCODE'] = 'NO'
+      config.build_settings['ENABLE_TESTABILITY'] = 'YES'
+      config.build_settings['SWIFT_VERSION'] = '5.0'
+    end
+  end
+end
+
+
