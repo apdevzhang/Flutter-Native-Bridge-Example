@@ -33,7 +33,7 @@
  ```
  
  - 遵守协议代理及加载flutter页面
-   可以根据需要紧紧跳转或是直接加载
+   可以根据需要仅仅跳转或是直接加载
    
  ```Swift
        SwiftFlutterBridge.shared.delegate = self
