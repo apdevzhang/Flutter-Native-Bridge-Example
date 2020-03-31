@@ -31,7 +31,7 @@ class _HomePageState extends State<HomePage> {
 
   // 发送信息给native
   void _clickAction(int index) {
-    // 这个字典紧紧是为了举个例子
+    // 这个字典仅仅为了举个例子
     Map<String, dynamic> map = {"name": listTitleArray[index], "arguments": "test"};
 
     MethodChannelManager.instance.methodChannel
